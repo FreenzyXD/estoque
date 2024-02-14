@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const listaProdutos = document.getElementById('lista-produtos');
     const modelosPorMarca = {
         scania: ["113","T 112 HW", "124", "143","142",  " L 111"," LK 140", "T 124","Linha R", "Linha S", "Linha V8" ],
-        volvo: ["FH", "FM", "FL"],
-        volkswagen: ["Delivery", "Constellation", "Worker"],
-        mercedes: ["Axor", "Actros", "Atego"],
-        ford: ["Cargo", "Fiesta", "EcoSport"]
+        volvo: ["FH", "FMX", "FL","VM","NH", "NL","N10"],
+        volkswagen: ["Delivery", "Constellation", "Worker","Meteor", "17-210", "8-150"],
+        mercedes: ["Axor", "Actros", "Atego","Accelo","11-13","15-18","11-11"],
+        ford: ["Cargo", "Cargo 816","Cargo 2042T","Cargo 1119","Cargo 1419","Cargo 1723", "Cargo 2429"]
     };
     const marcaSelect = document.getElementById('marca');
     const modeloSelect = document.getElementById('modelo');
