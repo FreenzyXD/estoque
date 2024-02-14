@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+form input, form button {
+    margin-bottom: 10px;
+}
+
+#lista-produtos {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista-produtos li {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Estoque</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <h1>Controle de Estoque</h1>
+
+    <div id="estoque">
+        <h2>Lista de Produtos</h2>
+        <ul id="lista-produtos"></ul>
+        <h2>Adicionar Novo Produto</h2>
+        <form id="form-produto">
+            <input type="text" id="nome-produto" placeholder="Nome do Produto" required>
+            <input type="number" id="quantidade-produto" placeholder="Quantidade" required>
+            <input id="compra" placeholder="Preço de Compra" required>
+            <select  id="marca" placeholder="selecione">
+                <option value="">Marca</option>
+                <option value="scania">Scania</option>
+                <option value="volvo">Volvo</option>
+                <option value="volkswagen">Volkswagen</option>
+                <option value="mercedes">Mercedes-Benz</option>
+                <option value="ford">Ford</option>
+            </select>
+            <select id="modelo" required>
+                <option value="" disabled selected>Selecione um modelo</option>
+            </select>
+
+            <button type="submit">Adicionar Produto</button>
+        </form>
+        </div>
+        <script src="src/main.js"></script>
+</body>
+</html>
